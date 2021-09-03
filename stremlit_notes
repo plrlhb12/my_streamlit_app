@@ -1,0 +1,55 @@
+H1 Project Title
+text explanation
+
+H2 Dataset Introduction
+text where did i find the data
+	 why do I choose this dataset
+	 plot
+
+H2 Feature Generation
+list new feature 1
+	 new feature 2
+
+H2 Model Training
+text Explaining selection
+
+max-depth          model performance metrics
+slider
+n_estimators
+drop-dwon
+list of features
+select input feature
+text input
+
+
+
+##### create containers 
+contains create sections in horizontal way
+columns create sections in vertical way
+
+### test dataset
+I am using a reduced version of it but you can find the original data here (2019 January - Yellow Taxi trip records) https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+
+
+#### input data
+
+
+### deploy to internet
+1. get an account by sign into Streamlit
+2. put your app on GitHub, create requirement.txt by executing belows
+
+cd folder_of_interest
+pip install pipreqs
+pipreqs ./
+
+go to githhub, create the new rep: my_streamlit_app
+go to local 
+cd my_streamlit_app
+git init
+git add .
+git commit -m "fisrt commit"
+git branch -M main
+git remote add origin git@github.com:plrlhb12/my_streamlit_app.git # tricks using ssh url instead of http url, otherwise always ask for passwords and always failed to push
+git push -u origin main
+
+failed becasue the data file is too big
